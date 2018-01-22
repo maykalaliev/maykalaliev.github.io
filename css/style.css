@@ -110,7 +110,7 @@ html {
             position: absolute;
             left: 22px;
             top: 29px;
-            background: url("../img/Login.png") no-repeat center;
+            background: url("../img/icon-login.png") no-repeat center;
             opacity: 0.3; }
           html .main-header .navigation .navigation-login li:hover {
             background-color: #464444; }
