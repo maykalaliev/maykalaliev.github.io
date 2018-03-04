@@ -1,0 +1,187 @@
+@media screen and (max-width: 768px) {
+  body {
+    min-width: 768px;
+    font-size: 9px; }
+  .container {
+    width: 87.23958333333333%;
+    margin: 0 6%; }
+  .main__head {
+    font-size: 43px;
+    line-height: 48.797px; }
+  .header__navigation {
+    display: none; }
+  .header__container {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .main__slist {
+    width: 305px; }
+  .header__logo {
+    width: 113px;
+    height: 44px;
+    background: url("../img/mishka-logo-tablet.svg") no-repeat center;
+    margin-top: 22px; }
+  .header__basket {
+    padding: 31px; }
+  .main__subjects {
+    background: url("../img/hero-tablet-bg.svg") no-repeat center; }
+  .main__delivery {
+    margin-left: 10px; }
+  .main__content {
+    left: 0;
+    position: inherit; }
+  .main__week {
+    float: right; }
+  .main__baskets::after {
+    bottom: -10px; }
+  .baskets__ship {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2; }
+  .baskets__head {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1; }
+  h2, .baskets__head {
+    font-size: 43px;
+    line-height: 50px; }
+  .baskets__ship {
+    margin-right: 0;
+    margin-left: auto; }
+  .baskets__description {
+    margin-left: 0px; }
+    .baskets__description span {
+      margin-top: 59px; }
+  .baskets__image {
+    max-width: 333px;
+    max-height: 470px;
+    background: url("../img/triple-set-tablet.svg") no-repeat center;
+    margin-top: 110px; }
+  table {
+    margin-top: 54px; }
+  .abount__head {
+    margin-left: 0px; }
+  .abount__list {
+    margin-left: 0px;
+    max-width: 629px; }
+  .abount__item {
+    -ms-flex-preferred-size: 248px;
+    flex-basis: 248px; }
+    .abount__item::before {
+      bottom: 75px; }
+  .main__reviews {
+    background: url("../img/review (1).svg") no-repeat left; }
+  .container__reviews {
+    margin-left: 0px;
+    background: none; }
+  .contact__list {
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .contact__head::after {
+    left: 93%; }
+  .contact__item--map {
+    margin-top: 61px; }
+  .contact__item--map, iframe {
+    display: block;
+    width: 100%;
+    max-width: 100%; }
+  .contact__button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media screen and (max-width: 320px) {
+  body {
+    min-width: 320px;
+    width: 100%; }
+  .menublock {
+    display: block; }
+  .container {
+    width: 100%;
+    margin: 0px;
+    padding: 0; }
+  .main__head {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 29.278px; }
+  .header__logo {
+    width: 86px;
+    height: 35px;
+    background: url("../img/mishka-logo-mobile.svg") no-repeat center;
+    margin: 22px auto; }
+  .main__slist {
+    display: none; }
+  .header__basket {
+    display: none; }
+  .header__search {
+    display: none; }
+  .main__subjects {
+    background: url("../img/hero-mobile.svg") no-repeat center; }
+  .main__delivery {
+    display: none; }
+  .main__sublist {
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 206px; }
+    .main__sublist::before {
+      background: none; }
+  .main__subitem {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin: 0;
+    height: 103px;
+    display: block;
+    padding-left: 30px; }
+  .main__subitem--cold {
+    padding: 23px 0; }
+  .main__subitem--black {
+    padding-top: 20px;
+    padding-bottom: 22px; }
+  .main__description--left {
+    display: block;
+    padding-left: 30px; }
+  .baskets__tittle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  h2, .baskets__head {
+    font-size: 25px;
+    line-height: 30px; }
+  .baskets__ship {
+    margin-left: 0px;
+    text-align: left;
+    margin-top: 0px; }
+    .baskets__ship br {
+      display: none; }
+    .baskets__ship .header__navigation {
+      width: auto;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    .baskets__ship .header__item {
+      width: auto; }
+  .contact__item--map, iframe, .contact__item--map {
+    display: block;
+    max-width: 100%;
+    width: 100%; }
+  .main__reviews .container {
+    background: #fff; }
+  .reviews__item {
+    border: 1px solid #ececec; }
+  .reviews__bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
+
+@media screen and (min-width: 1250px) {
+  .container {
+    max-width: 1040px;
+    margin: 0 auto; } }
