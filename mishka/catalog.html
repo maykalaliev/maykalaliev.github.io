@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мишка</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/blocknormalize.css">
+  <link rel="stylesheet" href="css/style.css">  
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <header class="header__index">
+    <section class="header__container container">
+     <h2 class="hidden">Шапка</h2>  
+      <nav class="header__navigation" id="header__navs">
+        <ul class="header__items" id="headeritemes">
+         <li class="header__item"><a href="#" class="header__link">Каталог&nbsp;товаров</a></li>
+         <li class="header__item"><a href="#" class="header__link">Вязание&nbsp;на&nbsp;заказ</a></li>
+        </ul>
+      </nav>  
+      <div class="header__logo" id="logo" onclick="redirect()">
+        <span class="hidden">Логотип</span>
+      </div>
+
+      <div class="header__search">
+       <a href="#" class="header__sbutton"></a> 
+      </div>
+      <div class="header__basket"><p><a href="#" class="header__backetlink">Корзина:&nbsp;пока&nbsp;пуста</a></p></div>
+
+      <div class="menublock">
+       <p><span class="hidden">Закрыть/открыть меню</span><span id="menu__button">X</span></p>
+      </div>
+    </section>
+  </header>   
+    <main class="main__index">
+    <section class="main__subjects catalog">
+     <h2 class="hidden">Вверх</h2>  
+     <div class="container">
+      <section class="main__stexts">
+       <h2 class="hidden">Верхие подпункты</h2>
+       <ul class="main__slist">
+        <li class="main__sitem"><a href="#" class="main__link">Новые&nbsp;поступления</a></li>
+        <li class="main__sitem"><a href="#" class="main__link">Распродажа</a></li>
+       </ul>
+        <span class="main__delivery">Бесплатная&nbsp;доставка&nbsp;по&nbsp;России</span>
+     </section>
+       <h2 class="main__head">Каталог товаров</h2>
+   </div>
+ </section>
+   <section class="main__goods">
+   <div class="container">
+       <h2 class="hidden">товары</h2>
+     <ul class="goods__list">
+      <li class="goods__item">
+        <img src="img/zayec.png" alt="">
+        <p class="item__text">
+           <span class="hidden">Название продукта</span>
+          <h5>Зайчик-попрыгайчик</h5>
+          <span class="item__spans">Рост 30 см, вес 200 г</span>
+          <div class="item__price">
+              <span class="hidden">Цена</span>
+            <span class="price_product">1 200 руб</span>
+          <div class="price__backet"></div>
+          </div>
+        </p>
+      </li>
+      <li class="goods__item">
+        <img src="img/photo-2-desktop.png" alt="">
+        <p class="item__text">
+           <span class="hidden">Название продукта</span>
+          <h5>Корзинка для белья</h5>
+          <span class="item__spans">Диаметр 15 см, высота 10 см</span>
+          <div class="item__price">
+            <span class="hidden">Цена</span>
+                      <span class="price_product">690 руб</span>
+          <div class="price__backet"></div>
+          </div>
+        </p>
+      </li>
+      <li class="goods__item">
+        <img src="img/photo-3-desktop.png" alt="">
+        <p class="item__text">
+           <span class="hidden">Название продукта</span>
+          <h5>Большая&nbsp;корзинка&nbsp;<br>для&nbsp;игрушек</h5>
+          <span class="item__spans">Рост 30 см, вес 200 г</span>
+          <div class="item__price">
+              <span class="hidden">Цена</span>
+            <span class="price_product">1 500 руб</span>
+          <div class="price__backet"></div>
+          </div>
+        </p>
+      </li>
+     </ul>
+   </div>
+   </section>
+   <section class="main__process">
+    <div class="container">
+    <ul class="process__list">
+     <li class="process__item itemimg">
+       <div class="process_image">
+         
+       </div>
+     </li>
+     <li class="process__item process_tittle">
+       <div class="process__content">
+        <img src="img/video.svg.png" alt="videoimage">
+        <h3>Процесс <br> производства</h3>
+        <p class="process__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+        <button class="button process__shopping">Сделать заказ</button>
+       </div>
+     </li>
+    </ul
+  </div>
+   </section>
+</main>
+ <footer>
+   <section class="footers">
+     <div class="container footers__container">
+       <ul class="footers__list">
+        <li class="footers__item">
+         <div class="footers__logo">
+          <h2 class="hidden">Логотип</h2> 
+         </div> 
+        </li>
+        <li class="footers__item">
+         <span class="hidden">Соц.сети</span> 
+         <ul class="footers__socials">
+          </ul> 
+        </li>
+        <li class="footers__item"></li>
+       </ul>
+     </div> 
+     
+  </section>
+    </footer>
+     <script src="js/script.js" defer></script>  
+</body>
+</html>
