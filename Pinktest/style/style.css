@@ -1,0 +1,102 @@
+html, body {
+  font-family: 'Open Sans', sans-serif; }
+
+.border {
+  border: 2px solid red; }
+
+.logo {
+  font-size: 0px; }
+
+.menu__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.tablecontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 44px;
+  padding-bottom: 44px; }
+
+.openmodal {
+  width: 50px;
+  height: 24px;
+  background: url("../img/menu-burger.svg.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px; }
+
+.minimenu {
+  display: none; }
+
+.header__menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.5);
+  height: 108px; }
+
+.headers__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.big__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 620px;
+  padding-top: 44px;
+  margin-left: 35px; }
+
+.big__item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold; }
+
+a:hover {
+  color: #d22856; }
+
+a:active {
+  color: #5f3650; }
