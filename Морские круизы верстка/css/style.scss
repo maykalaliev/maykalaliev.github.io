@@ -1,0 +1,304 @@
+$textcolor: #0d3351;
+$buttoncolor: #33c7fd;
+ul,li {
+list-style: none;;  
+}
+html{ 
+    font-family: 'Raleway', sans-serif;   
+}
+
+
+body{ 
+  background: #f3f3f3;   
+  min-width: 1170px;;;
+}
+a {
+  text-decoration: none;   
+  color: #fff;
+}
+
+.container {
+ max-width: 1170px;
+ margin: 0 auto;;  
+}
+
+header { 
+ height: 650px;   
+ background: url('/img/sochi-2258855.png')    center;
+ background-size: 100% 100%;
+}
+
+.container__menulist {
+ display: flex;
+ flex-direction: row;  
+ flex-wrap: wrap;
+ list-style: none;
+ justify-content: space-between;
+}
+
+.menulist__item {
+  padding-top: 33px;
+  padding-bottom: 33px;
+  svg {
+    cursor: pointer;    
+    margin-right: 30px;
+  }  
+  ul {
+   display: flex;
+   flex-direction: row; 
+  }
+
+}
+
+.cabinetitem { 
+ position: relative;  
+ &::before {
+  content: "";
+  width: 10px;
+  height: 12px;
+  background: url('/img/user.png') no-repeat center;
+  position: absolute;
+  left: -14px;
+  top: 5px;
+ }   
+}
+
+.courceitem {
+ position: relative;  
+ &::before {
+  content: "";
+  width: 10px;
+  height: 12px;
+  background: url('/img/Р.png') no-repeat center;
+  position: absolute;
+  left: -14px;
+  top: 5px;
+ }     
+}
+
+
+.navmenu {
+ width: 375px;   
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;   
+ flex-wrap: wrap;
+ margin-right: 30px;
+}
+
+.navmenuitem {
+ list-style: none;;   
+}
+
+ 
+
+select,option {
+  background: transparent;
+  border: none;;  
+  outline: none;
+}
+
+
+.menulist__item {
+  b {
+   font-size: 14px;
+   line-height: 14px;
+   font-weight: bold;
+   display: block; 
+   text-align: center;  
+  }  
+  span {
+   font-size: 10px;
+   margin-top: 10px;   
+  }
+}
+
+.header__logo {
+ display: block;
+ margin: 0 auto; 
+ margin-top: 20px;
+}
+
+h1, .main__catalogtext {
+ text-align: center;
+ font-size: 36px;
+ line-height: 48px;
+ color: $textcolor;
+ font-weight: 50;
+}
+
+
+.header__blacksea {
+ display: block;  
+ text-align: center;  
+ font-size: 100px;
+ line-height: 48px;
+ color: $textcolor;
+ margin-top: 45px;;
+ word-wrap: normal;
+}
+
+.button {
+ background: $buttoncolor;
+ font-size: 14px;
+ line-height: 48px;
+ font-weight: bolder;
+}
+
+
+.header__select { 
+ display: block; 
+ max-width: 203px;
+ margin: 0 auto;
+ text-align: center;
+ margin-top: 75px;;
+}
+
+
+.header__figure {
+ display: block;
+ margin: 0 auto;
+ margin-top: 17px;;
+}
+
+
+
+
+
+.main__catalogtext { 
+ margin-top: 160px;  
+}
+
+.selectsort {
+ display: block; 
+ margin: 0 auto;  
+ margin-top: 15px;
+ option {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 24px; 
+ }
+}
+
+
+.main__catalogs {
+ margin-top: 38px;  
+}
+
+.catalog__top {
+ display: flex;
+ flex-direction: row;  
+}
+.top__items {
+ &:first-child {
+  margin-right: 32px; 
+ } 
+}
+
+.items__info {
+ padding-bottom: 35px; 
+ padding-left: 42px;;
+}
+.items__info--link {
+ color: $buttoncolor;  
+ font-size: 18px;
+ line-height: 48px;
+}
+
+.items__info--text {
+ font-size: 14px;
+ line-height: 24px;
+ color: $textcolor;  
+}
+
+
+.items__info--price {
+ font-size: 30px;
+ line-height: 48px;
+ color: $textcolor; 
+ padding-bottom: 50px;
+}
+
+.whiteitem {
+ background: #fff;  
+}
+
+
+.right__items {
+ display: flex;
+ flex-direction: column;  
+}
+
+.right__item {
+ &:last-child { 
+  margin-top: 20px;  
+ } 
+}
+
+
+.bottom__items {
+ display: flex;
+ flex-direction: row;
+ margin-top: 20px;;
+}
+
+.bottom__item {
+ &:first-child {
+  margin-right: 32px; 
+ } 
+}
+
+.main__morecruises {
+ display: block; 
+ margin: 0 auto;
+ margin-top: 20px;
+ margin-bottom: 62px;;
+ border: none;
+ font-size: 14px;
+ line-height: 24px;
+ color: #fff;
+ background-color: $buttoncolor;
+ width: 200px;
+ height: 46px;
+ font-weight: bold;
+}
+
+.fa-icon {
+ display: inline-block;
+ margin-left: 48px; 
+}
+
+
+.fa-icon-button {
+ display: inline-block;
+ margin-left: 22px;  
+}
+
+
+footer {
+ background-color: #fff; 
+ color: $textcolor;
+}
+
+.footer_footerlist {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between; 
+}
+.footer__link--item {
+ a {
+  color: $textcolor;  
+  font-size: 14px;
+  line-height: 24px; 
+  font-weight: 50;
+ }
+}
+
+.footer_footerlist {
+ padding-top: 29px;
+ padding-bottom: 29px; 
+}
+
+.vkico {
+  
+}

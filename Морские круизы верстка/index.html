@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Туристический сайт Морские круизы">
+    <meta name="keywords" content="тур,билеты,сочи,геленджик">
+    <meta name="author" content="Майкал Алиев">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Морские круизы</title>
+    <link rel="shortcut icon" href="img/HTML5_icon-icons.com_67090.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/blocknormalize.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
+ 
+</head>
+<body>
+ <header>
+   <div class="container">
+     <ul class="container__menulist">
+      <li class="menulist__item">
+            <svg 
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="22px" height="16px">
+           <path fill-rule="evenodd"  fill="rgb(13, 51, 81)"
+            d="M-0.000,16.000 L-0.000,14.562 L22.000,14.562 L22.000,16.000 L-0.000,16.000 ZM-0.000,7.344 L22.000,7.344 L22.000,8.781 L-0.000,8.781 L-0.000,7.344 ZM-0.000,-0.000 L22.000,-0.000 L22.000,1.437 L-0.000,1.437 L-0.000,-0.000 Z"/>
+           </svg>
+      </li>
+      <li class="menulist__item">
+        <ul>
+          <li>
+              <nav>
+                  <ul class="navmenu">
+                   <li class="navmenuitem cabinetitem">
+                     <select name="cabinet" id="cabinets">
+                      <option value="mycabinet">Личный кабинет</option>
+                     </select>
+                   </li>
+                   <li class="navmenuitem courceitem">
+                    <select name="course" id="courses">
+                     <option value="ruble">Рубль</option>
+                     <option value="dollar">Доллар</option>
+                     </select>
+                   </li>
+                   <li class="navmenuitem">
+                    <select name="MyLang" id="lange">
+                     <option value="Ru">Ru</option>
+                     <option value="En">En</option>
+                    </select> 
+                   </li>   
+                  </ul>
+                </nav>  
+          </li>
+          <li>
+              <p>
+                  <span class="menulist__item--info"><b>8 800 500-61-05</b></span>
+                  <span class="menulist__item--info">Круглосуточная поддержка</span>
+              </p>
+          </li>
+        </ul> 
+      </li>   
+     </ul>
+     <img src="img/logo.png" alt="Логотип" class="header__logo">
+     <h1 class="header__head">Морские прогулки</h1>
+     <span class="header__blacksea">По&nbsp;черному&nbsp;морю</span>
+     <a href="#" class="button header__select">Выбрать круиз</a>
+     <img src="img/figure.png" alt="Зацепка" class="header__figure">
+   </div>  
+ </header>
+
+
+ <main>
+   <div class="container">
+     <section class="main__catalog">
+      <h2 class="main__catalogtext">Каталог круизов</h2>
+      <select name="sorttype" id="sortestypes" class="selectsort">
+        <option value="sortprice">Сортировать круизы по цене</option>
+        <option value="sortdate">Сортировать круизы по дате</option>
+      </select> 
+
+      <ul class="main__catalogs">
+        <li class="catalog__items">
+         <ul class="catalog__top">
+           <li class="top__items whiteitem">
+            <img src="img/lighthouse-1319560.png" alt="картинка дома">
+            <p class="items__info">
+              <a href="#" class="items__info--link">Морской круиз в Анапу<i class="fa fa-caret-right fa-icon" aria-hidden="true"></i>              </a> <br>
+              <span class="items__info--text"><b>Маршрут:</b> Сочи-Лазаревское-Геленджик-Анапа <br>
+                 <b>Продолжительность:</b> 10 ч. 0 мин.</span> <br>
+              <span class="items__info--price">49 000 руб.</span>    
+            </p>
+           </li>
+           <li class="top__items ">
+            <ul class="right__items">
+              <li class="right__item whiteitem">
+                <img src="img/sochi-2461968_1920.png" alt="картинка Сочи">
+                <p class="items__info">
+                    <a href="#" class="items__info--link">Обзорная морская прогулка с экскурсией<i class="fa fa-caret-right fa-icon" aria-hidden="true"></i></a> <br>
+                    <span class="items__info--text"><b>Маршрут:</b> Сочи-Адлер-Сочи (без высадки) <br>
+                       <b>Продолжительность:</b> 1 ч. 0 мин.</span> <br>
+                    <span class="items__info--price">5 000 руб.</span>    
+                  </p> 
+              </li>
+              <li class="right__item whiteitem">
+               <img src="/img/sloyimg.png" alt="картинка сочи">
+               <p class="items__info">
+                  <a href="#" class="items__info--link">Морская прогулка в Геленджик<i class="fa fa-caret-right fa-icon" aria-hidden="true"></i></a> <br>
+                  <span class="items__info--text"><b>Маршрут:</b> Сочи-Туапсе-Геленджик<br>
+                     <b>Продолжительность:</b> 12 ч. 30 мин.</span> <br>
+                  <span class="items__info--price">7 000 руб.</span>    
+                </p>  
+              </li>
+            </ul> 
+           </li>
+         </ul> 
+        </li>
+        <li class="catalog__items">
+         <ul class="bottom__items">
+           <li class="bottom__item whiteitem">
+              <img src="/img/novorossiysk-211521_1920.png" alt="картинка новороссийска">
+               <p class="items__info">
+                  <a href="#" class="items__info--link">Морской круиз в Новороссийск<i class="fa fa-caret-right fa-icon" aria-hidden="true"></i></a> <br>
+                  <span class="items__info--text"><b>Маршрут:</b> Сочи-Геленджик-Новороссйиск-Геленджик-Сочи<br>
+                     <b>Продолжительность:</b> 3 ч. 0 мин.</span> <br>
+                  <span class="items__info--price">14 800 руб.</span>    
+                </p>  
+           </li>
+           <li class="bottom_item whiteitem">
+              <img src="/img/sea-3141781_1920.png" alt="картинка абрау">
+              <p class="items__info">
+                 <a href="#" class="items__info--link">Морская прогулка в Абрау-Дюрсо<i class="fa fa-caret-right fa-icon" aria-hidden="true"></i></a> <br>
+                 <span class="items__info--text"><b>Маршрут:</b> Сочи-Абрау-Дюрсо<br>
+                    <b>Продолжительность:</b> 11 ч. 0 мин.</span> <br>
+                 <span class="items__info--price">14 800 руб.</span>    
+               </p>  
+           </li>
+         </ul> 
+        </li>
+      </ul>
+      <button class="main__morecruises">Больше круизов<i class="fa fa-caret-down fa-icon-button" aria-hidden="true"></i>
+      </button>
+     </section>
+   </div>
+ </main>
+
+
+ <footer>
+  <div class="container">
+    <ul class="footer_footerlist">
+     <li class="footer__item"><ul class="footer__link">
+       <li class="footer__link--item"><a href="#">Вход для партнеров</a></li>
+       <li class="footer__link--item"><a href="#">О компании</a></li>
+       <li class="footer__link--item"><a href="#">Контакты</a></li>
+     </ul>
+    </li>
+     <li class="footer__item"><span>Будь на связи</span>
+      <ul class="iconslist">
+        <li class="iconsitem"></li>
+        <li class="iconsitem vkico"><i class="fa fa-grav fa-3x" aria-hidden="true"></i>   </li>
+        <li class="iconsitem"></li>
+        <li class="iconsitem"></li>
+        <li class="iconsitem"></li>
+      </ul>
+    </li>
+     <li class="footer__item"></li> 
+    </ul>
+  </div> 
+ </footer> 
+<script src="js/script.js"></script>
+</body>
+</html>
