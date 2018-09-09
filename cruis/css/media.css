@@ -43,13 +43,13 @@ TabletMedia
   .right__item {
     width: 345px; }
   .anapatablet {
-    content: url("/img/anapatablet.png"); }
+    content: url("../img/anapatablet.png"); }
   .obzortablet {
-    content: url("/img/obzortablet.png"); }
+    content: url("../img/obzortablet.png"); }
   .obzorgelenjik {
-    content: url("/img/obzorgelenjik.png"); }
+    content: url("../img/obzorgelenjik.png"); }
   .obzornovorosiysk {
-    content: url("/img/obzornovoroskiysk.png"); } }
+    content: url("../img/obzornovoroskiysk.png"); } }
 
 /*
    TabletMedia
