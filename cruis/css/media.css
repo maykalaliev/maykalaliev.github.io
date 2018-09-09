@@ -122,4 +122,8 @@ TabletMedia
   .items__info--price {
     margin: 0px; }
   #largeImage {
-    width: 100%; } }
+    width: 100%; } 
+  .main__catalogtext {
+    margin-top: 17px;
+  }
+}
