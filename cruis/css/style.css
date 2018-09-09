@@ -22,7 +22,7 @@ a {
 
 header {
   height: 650px;
-  background: url("/img/sochi-2258855.png") center;
+  background: url("../img/sochi-2258855.png") center;
   background-size: 100% 100%; }
 
 .container__menulist {
@@ -61,7 +61,7 @@ header {
     content: "";
     width: 10px;
     height: 12px;
-    background: url("/img/user.png") no-repeat center;
+    background: url("../img/user.png") no-repeat center;
     position: absolute;
     left: -14px;
     top: 18px; }
@@ -72,7 +72,7 @@ header {
     content: "";
     width: 10px;
     height: 12px;
-    background: url("/img/Р.png") no-repeat center;
+    background: url("../img/Р.png") no-repeat center;
     position: absolute;
     left: -14px;
     top: 18px; }
