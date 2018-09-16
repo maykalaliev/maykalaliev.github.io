@@ -1,31 +1,31 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'playfair_displaybold';
-  src: url("/fonts/playfairdisplay-bold-webfont.woff2") format("woff2"), url("/fonts/playfairdisplay-bold-webfont.woff") format("woff");
+  src: url("/fonts/playfairdisplay-bold-webfont.woff2") format("woff2"), url("../fonts/playfairdisplay-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'playfair_displaybold_italic';
-  src: url("/fonts/playfairdisplay-bolditalic-webfont.woff2") format("woff2"), url("/fonts/playfairdisplay-bolditalic-webfont.woff") format("woff");
+  src: url("/fonts/playfairdisplay-bolditalic-webfont.woff2") format("woff2"), url("../fonts/playfairdisplay-bolditalic-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'circle regular';
-  src: url("/fonts/circe-regular-webfont.woff2") format("woff2"), url("/fonts/circe-regular-webfont.woff") format("woff");
+  src: url("/fonts/circe-regular-webfont.woff2") format("woff2"), url("../fonts/circe-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'intro_script_rh2_base';
-  src: url("/fonts/introscriptr-h2base_2.woff2") format("woff2"), url("/fonts/introscriptr-h2base_2.woff") format("woff");
+  src: url("/fonts/introscriptr-h2base_2.woff2") format("woff2"), url("../fonts/introscriptr-h2base_2.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Circle Bold';
-  src: url("/fonts//Circe-Bold.ttf") format("ttf");
+  src: url("../fonts/Circe-Bold.ttf") format("ttf");
   font-weight: normal;
   font-style: normal; }
 
