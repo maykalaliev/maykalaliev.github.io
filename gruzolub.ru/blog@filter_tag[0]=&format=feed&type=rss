@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>База знаний | Полезная инфомрация</title>
+		<description><![CDATA[]]></description>
+		<link>http://gruzolub.ru/blog</link>
+		<lastBuildDate>Mon, 24 Sep 2018 18:49:22 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://gruzolub.ru/blog?filter_tag[0]=&amp;format=feed&amp;type=rss"/>
+		<language>ru-ru</language>
+		<item>
+			<title>Транспорт для грузоперевозок: автопарк, список автомобилей для грузовых перевозок</title>
+			<link>http://gruzolub.ru/blog/11-transport</link>
+			<guid isPermaLink="true">http://gruzolub.ru/blog/11-transport</guid>
+			<description><![CDATA[<p><img src="http://gruzolub.ru/images/blog/20.jpg" /></p>]]></description>
+			<category>База знаний</category>
+			<pubDate>Tue, 12 Jun 2018 06:10:57 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

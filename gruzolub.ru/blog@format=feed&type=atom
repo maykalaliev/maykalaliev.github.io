@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="ru-ru">
+	<title type="text">База знаний | Полезная инфомрация</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="http://gruzolub.ru"/>
+	<id>http://gruzolub.ru/blog</id>
+	<updated>2018-09-24T18:48:29+00:00</updated>
+	<author>
+		<name>gruzolub</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://gruzolub.ru/blog?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Транспорт для грузоперевозок: автопарк, список автомобилей для грузовых перевозок</title>
+		<link rel="alternate" type="text/html" href="http://gruzolub.ru/blog/11-transport"/>
+		<published>2018-06-12T06:10:57+00:00</published>
+		<updated>2018-06-12T06:10:57+00:00</updated>
+		<id>http://gruzolub.ru/blog/11-transport</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;http://gruzolub.ru/images/blog/20.jpg&quot; /&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://gruzolub.ru/images/blog/20.jpg&quot; /&gt;&lt;/p&gt;</content>
+		<category term="База знаний" />
+	</entry>
+</feed>
