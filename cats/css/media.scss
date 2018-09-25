@@ -1,0 +1,109 @@
+@media screen and (max-width: 768px)  {
+ body { 
+  background: none;     
+ }   
+ h1 {
+  font-size: 60px;    
+ }
+ .container {
+  max-width: 708px;   
+  width: 92.1%;
+  margin: 0 3.9%;    
+  border: 1px solid red;
+ }   
+ 
+ .button {
+  max-width: 245px;
+  padding: 26px 18px;   
+ }
+.headerlist {
+  justify-content: space-between;  
+}
+.header__item {
+ &:last-child {
+  width: 100%; 
+ }  
+}
+ .logo {
+  max-width: 173px;;
+  svg {
+    image {
+     width: 173px; 
+    }
+  }
+ }
+ .header__menulist { 
+  justify-content: space-around;
+}
+ .header__menuitem {
+  margin-right: 0px;; 
+  a {
+   color: #000;  
+   font-size: 18px;
+  } 
+ }
+ .prograselect__text {
+  img {
+   position: absolute;   
+   max-width: 709px;
+   width: 92.3%;
+   margin-left: 0px;; 
+   top: 20px;
+   z-index: -1;    
+   margin-bottom: 100px;
+  }   
+ }
+ .capabilities__items {
+   flex-direction: column;  
+   margin-top: 0px;;
+ }
+ .capabilitiesitem {
+  width: 100%;;
+  padding: 50px;
+  &:last-child {
+   margin-top: 36px;;   
+  }   
+ }
+
+
+ .capabilitiesitem__top {
+  h2 {
+   margin-left: 0px;   
+  }   
+ }
+
+ .dogimg {
+   position: absolute;
+   width: 200px;
+   height: 200px;; 
+   right: 8.7%;
+ }
+
+
+
+ .work__worklist {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+ }
+
+ .worklist__workitem {  
+   flex-basis: 194px;
+   margin-top: 94px; 
+ }
+
+ .example__examplelist {
+  flex-direction: column; 
+ }
+
+ .exmaple__exampleitem {
+  width: 100%; 
+ }
+
+ .capabilitiesitem   {  
+ 
+ }
+
+ .catitem {
+  margin-top: 100px;; 
+ }
+}
